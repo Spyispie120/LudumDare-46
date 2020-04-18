@@ -6,7 +6,7 @@ public class Player : LivingEntity
 {
     //public ParticleSystem dustParticle;
 
-    public CodeMonkeyFieldOfView fov;
+    public FieldOfView fov;
 
     protected override void Start()
     {
