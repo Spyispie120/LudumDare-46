@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class FieldOfView : MonoBehaviour
 {
+
+    [SerializeField] private LayerMask layerMask;
+
     public float fov = 60;
     public float viewDistance = 1f;
     private Mesh mesh;
@@ -38,7 +41,7 @@ public class FieldOfView : MonoBehaviour
         for (int i = 0; i <= rayCount; i++)
         {
             Vector3 vertex;
-            RaycastHit2D raycastHit2D = Physics2D.Raycast(origin, GetVectorFromAngle(angle), viewDistance);
+            RaycastHit2D raycastHit2D = Physics2D.Raycast(origin, GetVectorFromAngle(angle), viewDistance, layerMask);
             if (raycastHit2D.collider == null)
             {
                 vertex = origin + GetVectorFromAngle(angle) * viewDistance;

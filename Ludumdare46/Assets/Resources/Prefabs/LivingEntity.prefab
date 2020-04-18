@@ -98,13 +98,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  speed: 10
+  speed: 7
   health: 0
   direction: {x: 0, y: 0, z: 0}
   flip: 0
   anim: {fileID: 0}
   hitstun: 0
-  fov: {fileID: 2580189132872860759, guid: f836cda9f6909de4f88af472d25f65a3, type: 3}
+  fov: {fileID: 0}
 --- !u!50 &5599623558531220769
 Rigidbody2D:
   serializedVersion: 4

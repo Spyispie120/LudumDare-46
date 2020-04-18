@@ -372,17 +372,17 @@ PrefabInstance:
     - target: {fileID: 2580189132872860756, guid: f836cda9f6909de4f88af472d25f65a3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2580189132872860756, guid: f836cda9f6909de4f88af472d25f65a3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2580189132872860756, guid: f836cda9f6909de4f88af472d25f65a3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.7910156
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2580189132872860756, guid: f836cda9f6909de4f88af472d25f65a3,
         type: 3}
@@ -437,6 +437,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CodeMonkeyFieldOfView
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580189132872860752, guid: 48e179d95b9e0ee489798b8097d76759,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2580189132872860756, guid: 48e179d95b9e0ee489798b8097d76759,
         type: 3}
